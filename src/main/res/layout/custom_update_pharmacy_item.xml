@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddDoctor">
+
+    <EditText
+        android:id="@+id/updatedrugName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Drug Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/updatedrugPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Drug Price"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/updatedrugDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Drug Description"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/udate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:text="Update Drug Details"
+        app:backgroundTint="@color/btn"
+        app:cornerRadius="15dp" />
+</LinearLayout>

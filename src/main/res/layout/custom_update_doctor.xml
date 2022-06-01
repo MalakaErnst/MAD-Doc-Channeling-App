@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddDoctor">
+
+    <EditText
+        android:id="@+id/updatedocid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Doctor ID"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/updatedocName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Doctor Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/updatedocAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/updatedocCoatcat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Contact"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/updatedocAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/updatedocSpecialist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Specialist For"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/updatedocTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Time"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/updatedocprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Appoinment Charge"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:text="Add Doctor Details"
+        app:backgroundTint="@color/btn"
+        app:cornerRadius="15dp" />
+</LinearLayout>
